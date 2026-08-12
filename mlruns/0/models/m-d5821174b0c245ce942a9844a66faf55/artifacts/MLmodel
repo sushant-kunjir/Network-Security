@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/Susha/OneDrive/Desktop/machine Learning/NETWORK SECURITY
+  PROJECT/mlruns/0/models/m-d5821174b0c245ce942a9844a66faf55/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-d5821174b0c245ce942a9844a66faf55
+model_size_bytes: 102817
+model_uuid: m-d5821174b0c245ce942a9844a66faf55
+prompts: null
+run_id: c45e94e0000b468b97f0eea8375cef67
+utc_time_created: '2026-08-12 07:57:08.159329'
